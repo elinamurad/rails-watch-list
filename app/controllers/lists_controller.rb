@@ -1,19 +1,20 @@
 class ListsController < ApplicationController
 
-    def index
+  def index
     @list = List.all
   end
 
   def show
     @list = List.find(params[:id])
+    @movies = @list.movies
   end
 
   def new
-    @list= List.new
+    @list = List.new
   end
 
   def create
-    @list = List.new(restaurant_params)
+    @list = List.new(list_params)
     if @list.save
       redirect_to list_path(@list)
     else
@@ -21,9 +22,3 @@ class ListsController < ApplicationController
     end
   end
 end
-
-private
-
-  def list_params
-    params.require(:list).permit(:name)
-  end

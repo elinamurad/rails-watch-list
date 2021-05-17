@@ -12,5 +12,5 @@ class Movie < ApplicationRecord
 #     self.listings.each do |listing|
 #     listing.destroy
 #   end
-#   end
+# end
 end

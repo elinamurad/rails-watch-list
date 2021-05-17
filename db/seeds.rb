@@ -5,11 +5,14 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-movies = Movie.create([
-  { title: 'A Bigger Splash (2015)', poster_url: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hQ8vLJyws0tAYbBmzpTKbjdNHKI.jpg"},
-  { title: 'Une vie volée (1999)', poster_url: "https://www.themoviedb.org/movie/3558-girl-interrupted#"},
-  { title: 'Les Nuits de Cabiria (1957)', poster_url: "https://www.themoviedb.org/movie/19426-le-notti-di-cabiria#" },
-  { title: "L'Éclipse (1962)", poster_url: "https://www.themoviedb.org/movie/21135-l-eclisse#"},
-  { title: 'The Gentlemen (2019)', poster_url: "https://www.themoviedb.org/movie/522627-the-gentlemen#" },
-  { title: 'Parle avec elle (2002)', poster_url: "https://www.themoviedb.org/movie/64-hable-con-ella#"}
-])
+Movie.create( title: 'A Bigger Splash (2015)', poster_url: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hQ8vLJyws0tAYbBmzpTKbjdNHKI.jpg", overview: "A Bigger Splash is a 2015 psychological drama film directed by Luca Guadagnino and written by David Kajganich from a story by Alain Page. Loosely based on the 1969 Jacques Deray film La Piscine[3] and named after the 1967 David Hockney painting,[4] the film stars Tilda Swinton, Matthias Schoenaerts, Ralph Fiennes, and Dakota Johnson. It is the second installment in Guadagnino's self-described Desire trilogy, following I Am Love (2009) and preceding Call Me by Your Name (2017). It competed for the Golden Lion at the 72nd Venice International Film Festival.")
+
+Movie.create(title: 'Girl, Interrupted (1999)', poster_url: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fHEKpWlbMr0mXD5MtMpBlvcx3TQ.jpg", overview: "Girl, Interrupted is a 1999 American psychological drama film directed by James Mangold and starring Winona Ryder, Angelina Jolie, Clea DuVall, Brittany Murphy, Whoopi Goldberg, Elisabeth Moss, Angela Bettis, Vanessa Redgrave, and Jared Leto. Based on Susanna Kaysen's memoir of the same name, it follows a young woman who, after a suicide attempt, spends 18 months at a psychiatric hospital between 1967 and 1968.")
+
+Movie.create(title: 'Les Nuits de Cabiria (1957)', poster_url: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/26VJNsFVLZauRT6gIYz5B4hXLRD.jpg", overview: "Nights of Cabiria (Italian: Le notti di Cabiria) is a 1957 Italian drama film directed by Federico Fellini and starring Giulietta Masina, François Périer, and Amedeo Nazzari. Based on a story by Fellini, the film is about a prostitute in Rome who searches in vain for true love.")
+
+Movie.create(title: "L'Éclipse (1962)", poster_url: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/AqlatSuJvfzzGqKHMPpnF4RRGyM.jpg", overview: "L'Eclisse (English: The Eclipse) is a 1962 Italian romance film written and directed by Michelangelo Antonioni and starring Alain Delon and Monica Vitti. Filmed on location in Rome and Verona,[1] the story follows a young woman (Vitti) who pursues an affair with a confident young stockbroker (Delon).[2] The film is considered the last part of a trilogy, and is preceded by L'Avventura (1960) and La Notte (1961).")
+
+Movie.create(title: 'The Gentlemen (2019)', poster_url: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/86UEvw3t8amtxepQRtBiQHkk954.jpg", overview: "The Gentlemen is a 2019 action comedy film[5][6][7] written, directed and produced by Guy Ritchie, who developed the story along with Ivan Atkinson and Marn Davies. The film stars Matthew McConaughey, Charlie Hunnam, Henry Golding, Michelle Dockery, Jeremy Strong, Eddie Marsan, Colin Farrell, and Hugh Grant. It follows an American marijuana kingpin in England who is looking to sell his business, setting off a chain of blackmail and schemes to undermine him.")
+
+Movie.create(title: 'Talk to Her (2002)', poster_url: "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fmCJvc6ZpPaeSGS4bgfc3n5rt00.jpg", overview: "Talk to Her (Spanish: Hable con ella) is a 2002 Spanish drama written and directed by Pedro Almodóvar, and starring Javier Cámara, Darío Grandinetti, Leonor Watling, Geraldine Chaplin, and Rosario Flores. The film follows two men who form an unlikely friendship as they care for two women who are both in comas.")
